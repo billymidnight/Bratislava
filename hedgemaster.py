@@ -14,5 +14,5 @@ df_sorted_by_standardized = df.sort_values(by='standardized_giftreward', ascendi
 
 top_10_standardized = df_sorted_by_standardized
 
-output_with_standardized = top_10_standardized[['bname', 'favodds', 'udogsodds', 'giftreward', 'standardized_giftreward']]
+output_with_standardized = top_10_standardized[['bname', 'favodds', 'udogsodds', 'giftreward', 'standardized_giftreward', 'x']]
 print(output_with_standardized)

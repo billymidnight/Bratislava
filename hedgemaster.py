@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv('data.csv')  
 
-y = 700
+y = 100
 
 df['x'] = (y * (100 / (-df['favodds'])) + y) / (df['udogsodds'] / 100)
 #print(df['x'])

@@ -2,7 +2,7 @@ import pandas as pd
 from sympy import symbols, Eq, solve
 
 udogsodds, favodds, y = symbols('udogsodds favodds y')
-x = 300
+x = 200
 
 equation = Eq((100/-favodds)*y - x + 0.68*x, (udogsodds / 100)*x - y)
 
